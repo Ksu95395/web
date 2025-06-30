@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/task.css">
+</head>
+<body>
+    <header>
+        <section class="header-menu">
+            <div class="header-menu-text">
+                <a href="../index.html" class="header-menu-logo">RIVERSADE</a>
+                <button class="header-burgermenu">
+                    <img src="img/icons/Hamburger Menu.svg" alt=""></button>
+                <nav>
+                    <a href="">Номера и цены</a>
+                    <a href="">Бронирование</a>
+                    <a href="">Кафе</a>
+                    <a href="">Рядом с нами</a>
+                    <a href="">Контакты</a>
+                    <button>Вход</button>
+                </nav>
+            <div class="lang">
+                <img src="img/icons/lang.svg" alt=""> <span>RU</span>
+            </div>
+            </div>
+        </section>
+        <section class="header-hero">
+            <div class="hero-search">
+                <div class="header-hero-choose">
+                    <h4>Количество гостей</h4>
+                    <select name="" id="">
+                        <option value="">Выберите..</option>
+                        <option value="">2</option>
+                    </select>
+                </div>
+                <div class="header-hero-choose">
+                    <h4>Заезд</h4>
+                    <select name="" id="">
+                        <option value="">Выберите..</option>
+                        <option value="">25.07.2025</option>
+                    </select>
+                </div>
+                <div class="header-hero-choose">
+                    <h4>Выезд</h4>
+                    <select name="" id="">
+                        <option value="">Выберите..</option>
+                        <option value="">30.07.2025</option>
+                    </select>
+                </div>
+                    <button class="header-hero-btn">Бронировать</button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="about-us">
+            <h2>О гостинице</h2>
+            <p> Номерной фонд гостиницы - это 136 уютных номеров категории «Стандарт», «Комфорт» и «Люкс», в каждом из которых имеется санузел, телевизор, телефон и холодильник. На всей территории гостиницы есть бесплатный Wi-Fi. В гостинице есть всё необходимое для проведения мероприятий: конференций, семинаров, тренингов, банкетов, фуршетов, свадеб, корпоративов.</p>
+            <p>К Вашим услугам: Комфортные номера различных категорий; Кафе «RIVERSADE» предоставляет вкусный, разнообразный и сытный завтрак, а также обед и ужин проходят в формате "Комплексный"; Залы для бизнес-мероприятий оснащены современным техническим оборудованием, рассадка в соответствии с форматом мероприятия; Наш профессиональный и гостеприимный персонал подберёт наиболее подходящий вариант размещения.</p>
+            <p>Ждём Вас в Гостинице «RIVERSADE»!</p>
+        </section>
+        <section class="events">
+        <h2>Мероприятия</h2>
+        <div class="cards">
+            <div class="card">
+                <img class="card-img" src="img/cards/card-1.png" alt="">
+                <div class="card-body">
+                    <h4>Коктели и закуски</h4>
+                    <p class="">ПРИБРЕЖНАЯ ВАЛЕНСИЯ</p>
+                </div>
+                <div class="card-date">
+                    <span class="card-date-day">24</span>
+                    <br>Окт
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img" src="img/cards/card-2.png" alt="">
+                <div class="card-body">
+                    <h4>Празднечный завтрак в выходные дни</h4>
+                    <p class="">ПРИБРЕЖНАЯ МАЛАГИЯ</p>
+                </div>
+                <div class="card-date">
+                    <span class="card-date-day">25</span>
+                    <br>Окт
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img" src="img/cards/card-3.png" alt="">
+                <div class="card-body">
+                    <h4>Фортепианный вечер</h4>
+                    <p class="">РИВЕРСАЙД АТОЧА</p>
+                </div>
+                <div class="card-date">
+                    <span class="card-date-day">26</span>
+                    <br>Окт
+                </div>
+            </div>
+        </div>
+        <button class="btn-primary">Бронировать</button>
+    </section>
+        <section class="contact-us">
+            <h2>Связаться с нами</h2>
+            <form class="row-g-3">
+            <div class="col-4">
+                <input type="text" class="form-control" id="inputName" placeholder="Введите свое имя*" required>
+                <input type="text" class="form-control" id="inputName2" placeholder="Введите фамилию">
+                <input type="text" class="form-control" id="inputCity" placeholder="Город">
+                <select id="inputState" class="form-select">
+                    <option selected>Выберите страну</option>
+                    <option>Россия</option>
+                    <option>Казахстан</option>
+                    <option>Белорусь</option>
+                    <option>Монголия</option>
+                </select>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="E-mail*" required>
+                <input type="tel" class="form-control" id="inputTel" placeholder="Телефон*">
+            </div>
+            <textarea type="text" class="form-control" id="inputMessage"  placeholder="Сообщение" required></textarea> 
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" required for="gridCheck">Даю согласие на обработку данных*</label>
+            </div>
+            <button type="submit" class="btn-primary">Отправить</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <section class="footer-body">
+            <h3>RIVERSADE</h3>
+            <div class="footer-body-links">
+                <ul>
+                    <h4>О нас</h4>
+                    <li><a href="">О нас</a></li>
+                    <li><a href="">Карьера</a></li>
+                    <li><a href="">Связаться с нами</a></li>
+                </ul>
+                <ul>
+                    <h4>Новости</h4>
+                    <li><a href="">Пресс-центр</a></li>
+                    <li><a href="">Журнал</a></li>
+                    <li><a href="">Рассылка</a></li>
+                </ul><ul>
+                    <h4>Резервация</h4>
+                    <li><a href="">Запросить счет-фактуру</a></li>
+                    <li><a href="">Найти место для бронирования</a></li>
+                    <li><a href="">Настройки личного кабинета</a></li>
+                </ul>
+
+            </div>
+            <div class="footer-social-media">
+                <a href=""><img src="img/icons/facebook.svg" alt=""></a>
+                <a href=""><img src="img/icons/instagram.svg" alt=""></a>
+                <a href=""><img src="img/icons/twitter.svg" alt=""></a>
+                <a href=""><img src="img/icons/youtube.svg" alt=""></a>
+            </div>
+            <div class="footer-policy">
+                <a href="">Юридическое Уведомление</a>
+                <a href="">Политика конфиденциальности</a>
+                <a href="">Настройки файлов cookie</a>
+                <a href="">Политика Доступа к файлам cookie</a>
+            </div>
+            <p class="rights">Отель «Риверсайд» 1997–2002 гг. Все права защищены.</p>
+        </section>
+    </footer>
+</body>
+</html>
