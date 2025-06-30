@@ -10,6 +10,7 @@ header {
     height: 700px;
     object-fit: cover; 
     justify-content: space-between;
+    padding: 60px 100px 60px;
 }
 a{
     text-decoration: none;
